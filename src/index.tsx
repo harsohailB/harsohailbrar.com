@@ -6,6 +6,8 @@ import "./index.css";
 import Navbar from "./components/Navbar";
 import ThemeProvider from "./contexts/ThemeProvider";
 import HomePage from "./components/HomePage";
+import ExperiencePage from "./components/ExperiencePage";
+import SkillsPage from "./components/SkillsPage";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,6 +17,8 @@ ReactDOM.render(
           <Navbar />
           <Switch>
             <Route exact path="/" component={HomePage} />
+            <Route exact path="/experience" component={ExperiencePage} />
+            <Route exact path="/skills" component={SkillsPage} />
           </Switch>
         </div>
       </BrowserRouter>
