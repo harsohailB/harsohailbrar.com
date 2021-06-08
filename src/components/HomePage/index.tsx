@@ -6,11 +6,10 @@ import headshotImage from "../../assets/imgs/home/headshot.png";
 
 const HomePage = () => {
   return (
-    <div className="flex flex-row justify-between items-center mt-60">
-      <div className="flex flex-col w-1/2 dark:text-white">
+    <div className="flex flex-col md:flex-row justify-between items-center md:mt-60">
+      <div className="flex flex-col md:w-1/2 dark:text-white my-10">
         <p className="font-playfair text-7xl font-bold">Hi, I am</p>
         <p className="font-playfair text-7xl font-bold">Harsohail Brar</p>
-
         <p className="font-spartan text-2xl font-bold text-gray-400 my-4 dark:text-gray-400">
           Software Engineering Student
         </p>

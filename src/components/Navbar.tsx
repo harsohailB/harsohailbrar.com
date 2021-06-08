@@ -1,7 +1,12 @@
 import Brightness2OutlinedIcon from "@material-ui/icons/Brightness2Outlined";
 import BrightnessMediumOutlinedIcon from "@material-ui/icons/BrightnessMediumOutlined";
+import HomeOutlinedIcon from "@material-ui/icons/HomeOutlined";
+import BusinessCenterOutlinedIcon from "@material-ui/icons/BusinessCenterOutlined";
+import BrushOutlinedIcon from "@material-ui/icons/BrushOutlined";
+import CodeOutlinedIcon from "@material-ui/icons/CodeOutlined";
+import DescriptionOutlinedIcon from "@material-ui/icons/DescriptionOutlined";
+
 import { useState } from "react";
-import { ThemeContext } from "../contexts/ThemeProvider";
 
 enum Theme {
   Light = "light",
@@ -31,11 +36,29 @@ const Navbar = () => {
     assignHTMLElementClass(newTheme);
   };
 
-  return (
-    <div className="flex justify-between items-center font-spartan py-8 dark:text-white">
-      <span className="font-extrabold">Harsohail</span>
+  const renderThemeIcon = () => {
+    if (theme === Theme.Light) {
+      return (
+        <Brightness2OutlinedIcon
+          className={iconClasses}
+          onClick={toggleTheme}
+        />
+      );
+    } else {
+      return (
+        <BrightnessMediumOutlinedIcon
+          className={iconClasses}
+          onClick={toggleTheme}
+        />
+      );
+    }
+  };
 
-      <div className="flex items-center">
+  return (
+    <div className="flex-col flex justify-center lg:flex-row lg:justify-between items-center font-spartan py-8 dark:text-white">
+      <span className="font-extrabold mb-2 lg:mb-0">Harsohail</span>
+
+      <div className="items-center hidden md:flex">
         <a className="mx-4" href="/">
           Home
         </a>
@@ -49,18 +72,43 @@ const Navbar = () => {
           Skills
         </a>
         <a className="mx-4">Resume</a>
+        {renderThemeIcon()}
+      </div>
 
-        {theme === Theme.Light ? (
-          <Brightness2OutlinedIcon
-            className={iconClasses}
-            onClick={toggleTheme}
-          />
-        ) : (
-          <BrightnessMediumOutlinedIcon
-            className={iconClasses}
-            onClick={toggleTheme}
-          />
-        )}
+      <div className="flex items-center md:hidden">
+        <a
+          className="mx-4 flex flex-col justify-center items-center text-xs"
+          href="/"
+        >
+          <HomeOutlinedIcon />
+          Home
+        </a>
+        <a
+          className="mx-4 flex flex-col justify-center items-center text-xs"
+          href="experience"
+        >
+          <BusinessCenterOutlinedIcon />
+          Experience
+        </a>
+        <a
+          className="mx-4 flex flex-col justify-center items-center text-xs"
+          href="portfolio"
+        >
+          <BrushOutlinedIcon />
+          Portfolio
+        </a>
+        <a
+          className="mx-4 flex flex-col justify-center items-center text-xs"
+          href="skills"
+        >
+          <CodeOutlinedIcon />
+          Skills
+        </a>
+        <a className="mx-4 flex flex-col justify-center items-center text-xs">
+          <DescriptionOutlinedIcon />
+          Resume
+        </a>
+        {renderThemeIcon()}
       </div>
     </div>
   );

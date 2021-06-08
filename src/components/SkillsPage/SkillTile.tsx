@@ -48,7 +48,7 @@ const SkillTile = (props: { skill: SkillsCategory; index: number }) => {
         props.index % 2 === 0 ? `flex-row-reverse` : `flex-row`
       }`}
     >
-      <img src={svg} className="w-80" />
+      <img src={svg} className="w-52 md:w-72 lg:w-80" />
 
       <div className="w-60 h-80 shadow-2xl p-6 rounded-xl dark:bg-gray-800 dark:text-white">
         <h3 className="font-spartan font-bold text-2xl mb-4">
