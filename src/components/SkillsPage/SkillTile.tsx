@@ -34,7 +34,9 @@ const SkillTile = (props: { skill: SkillsCategory; index: number }) => {
       return (
         <div className="space-x-2 text-green-400">
           <CheckIcon />
-          <span className="text-black font-light">{entity}</span>
+          <span className="text-black font-light dark:text-white">
+            {entity}
+          </span>
         </div>
       );
     });
@@ -48,7 +50,7 @@ const SkillTile = (props: { skill: SkillsCategory; index: number }) => {
     >
       <img src={svg} className="w-80" />
 
-      <div className="w-60 h-80 shadow-2xl p-6 rounded-xl">
+      <div className="w-60 h-80 shadow-2xl p-6 rounded-xl dark:bg-gray-800 dark:text-white">
         <h3 className="font-spartan font-bold text-2xl mb-4">
           {props.skill.name}
         </h3>

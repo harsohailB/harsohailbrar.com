@@ -5,8 +5,8 @@ import { ProjectData } from "../../interfaces/portfolio";
 
 const PortfolioPage = () => {
   const renderProjects = () => {
-    return siteData.portfolioData.map((project: ProjectData) => (
-      <Project data={project} />
+    return siteData.portfolioData.map((project: ProjectData, index: number) => (
+      <Project data={project} index={index} />
     ));
   };
 

@@ -1,6 +1,6 @@
 const Header = (props: { title: string }) => {
   return (
-    <div className="flex justify-center items-center my-4">
+    <div className="flex justify-center items-center my-4 dark:text-white">
       <h1 className="font-playfair text-6xl font-bold">{props.title}</h1>
     </div>
   );

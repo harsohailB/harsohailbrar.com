@@ -9,10 +9,12 @@ const ExperienceTile = (props: { data: ExperienceData }) => {
         alt={props.data.company}
       />
 
-      <div className="flex flex-col items-end font-spartan">
+      <div className="flex flex-col items-end font-spartan dark:text-white">
         <h2 className="font-bold text-xl">{props.data.company}</h2>
         <h3>{props.data.position}</h3>
-        <p className="italic text-gray-400">{props.data.duration}</p>
+        <p className="italic text-gray-400 dark:text-gray-400">
+          {props.data.duration}
+        </p>
       </div>
     </div>
   );
