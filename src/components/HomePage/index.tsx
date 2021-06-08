@@ -6,7 +6,7 @@ import headshotImage from "../../assets/imgs/home/headshot.png";
 
 const HomePage = () => {
   return (
-    <div className="container flex flex-row justify-between items-center mt-60">
+    <div className="flex flex-row justify-between items-center mt-60">
       <div className="flex flex-col w-1/2">
         <p className="font-playfair text-7xl font-bold">Hi, I am</p>
         <p className="font-playfair text-7xl font-bold">Harsohail Brar</p>
@@ -22,7 +22,7 @@ const HomePage = () => {
         </p>
       </div>
 
-      <div className="flex justify-end items-center w-1/2">
+      <div className="flex justify-end items-center">
         <div className="flex flex-col justify-center items-center">
           <img src={headshotImage} className="w-80 h-auto" />
 

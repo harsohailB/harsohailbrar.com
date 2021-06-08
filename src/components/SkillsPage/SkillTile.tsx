@@ -42,7 +42,7 @@ const SkillTile = (props: { skill: SkillsCategory; index: number }) => {
 
   return (
     <div
-      className={`container flex justify-around items-center my-12 ${
+      className={`flex justify-around items-center my-12 ${
         props.index % 2 === 0 ? `flex-row-reverse` : `flex-row`
       }`}
     >

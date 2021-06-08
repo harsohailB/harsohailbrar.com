@@ -1,7 +1,7 @@
 export enum Status {
-  UnderDevelopment,
-  InProduction,
-  ShutDown,
+  UnderDevelopment = "Under Development",
+  InProduction = "In Production",
+  ShutDown = "Shut Down",
 }
 
 export interface ProjectData {
@@ -9,4 +9,5 @@ export interface ProjectData {
   description: string;
   status: Status;
   tools: string;
+  imageURL: string;
 }

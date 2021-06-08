@@ -2,7 +2,7 @@ import { ExperienceData } from "../../interfaces/experience";
 
 const ExperienceTile = (props: { data: ExperienceData }) => {
   return (
-    <div className="container flex justify-between items-center my-16">
+    <div className="flex justify-around items-center my-16">
       <img
         src={props.data.imageURL}
         className="w-80 h-auto"
