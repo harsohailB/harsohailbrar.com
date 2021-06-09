@@ -8,13 +8,15 @@ const HomePage = () => {
   return (
     <div className="flex flex-col md:flex-row justify-between items-center md:mt-60">
       <div className="flex flex-col md:w-1/2 dark:text-white my-10">
-        <p className="font-playfair text-7xl font-bold">Hi, I am</p>
-        <p className="font-playfair text-7xl font-bold">Harsohail Brar</p>
-        <p className="font-spartan text-2xl font-bold text-gray-400 my-4 dark:text-gray-400">
+        <p className="font-playfair text-5xl sm:text-7xl font-bold">Hi, I am</p>
+        <p className="font-playfair text-5xl sm:text-7xl font-bold">
+          Harsohail Brar
+        </p>
+        <p className="font-spartan text-xl sm:text-2xl font-bold text-gray-400 my-4 dark:text-gray-400">
           Software Engineering Student
         </p>
 
-        <p className="font-spartan text-1xl">
+        <p className="font-spartan text-sm sm:text-1xl">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s.

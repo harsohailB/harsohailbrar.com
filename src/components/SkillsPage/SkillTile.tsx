@@ -34,7 +34,7 @@ const SkillTile = (props: { skill: SkillsCategory; index: number }) => {
       return (
         <div className="space-x-2 text-green-400">
           <CheckIcon />
-          <span className="text-black font-light dark:text-white">
+          <span className="text-black font-light dark:text-white text-sm sm:text-md">
             {entity}
           </span>
         </div>
@@ -44,14 +44,14 @@ const SkillTile = (props: { skill: SkillsCategory; index: number }) => {
 
   return (
     <div
-      className={`flex justify-around items-center my-12 ${
+      className={`flex justify-between sm:justify-around items-center my-12 ${
         props.index % 2 === 0 ? `flex-row-reverse` : `flex-row`
       }`}
     >
-      <img src={svg} className="w-52 md:w-72 lg:w-80" />
+      <img src={svg} className="w-36 sm:w-52 md:w-72 lg:w-80" />
 
-      <div className="w-60 h-80 shadow-2xl p-6 rounded-xl dark:bg-gray-800 dark:text-white">
-        <h3 className="font-spartan font-bold text-2xl mb-4">
+      <div className="w-36 sm:w-60 shadow-2xl p-3 sm:p-6 rounded-xl dark:bg-gray-800 dark:text-white">
+        <h3 className="font-spartan font-bold text-md sm:text-2xl mb-4">
           {props.skill.name}
         </h3>
         {renderSkills()}

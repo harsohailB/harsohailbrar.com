@@ -74,7 +74,7 @@ export const siteData: SiteData = {
     },
     {
       name: "Cloud",
-      skills: ["AWS", "Docker", "GitHub Actions", "YAML"],
+      skills: ["AWS", "Docker", "CI/CD", "YAML"],
     },
   ],
 };
