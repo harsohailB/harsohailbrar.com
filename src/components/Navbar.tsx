@@ -1,6 +1,6 @@
 import Brightness2OutlinedIcon from "@material-ui/icons/Brightness2Outlined";
 import BrightnessMediumOutlinedIcon from "@material-ui/icons/BrightnessMediumOutlined";
-import HomeOutlinedIcon from "@material-ui/icons/HomeOutlined";
+import SchoolOutlinedIcon from "@material-ui/icons/SchoolOutlined";
 import BusinessCenterOutlinedIcon from "@material-ui/icons/BusinessCenterOutlined";
 import BrushOutlinedIcon from "@material-ui/icons/BrushOutlined";
 import CodeOutlinedIcon from "@material-ui/icons/CodeOutlined";
@@ -65,6 +65,9 @@ const Navbar = () => {
           <a className="mx-4 hidden md:flex" href="experience">
             Experience
           </a>
+          <a className="mx-4 hidden md:flex" href="education">
+            Education
+          </a>
           <a className="mx-4 hidden md:flex" href="portfolio">
             Portfolio
           </a>
@@ -76,13 +79,20 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="flex items-center md:hidden justify-around w-full">
+      <div className="flex items-center md:hidden justify-around w-full space-x-4">
         <a
           className="flex flex-col justify-center items-center text-xs"
           href="experience"
         >
           <BusinessCenterOutlinedIcon />
           Experience
+        </a>
+        <a
+          className="flex flex-col justify-center items-center text-xs"
+          href="education"
+        >
+          <SchoolOutlinedIcon />
+          Education
         </a>
         <a
           className="flex flex-col justify-center items-center text-xs"

@@ -10,4 +10,5 @@ export interface ProjectData {
   status: Status;
   tools: string;
   imageURL: string;
+  projectURL: string;
 }

@@ -25,8 +25,10 @@ const Project = (props: { data: ProjectData; index: number }) => {
   }
 
   return (
-    <div
-      className={`flex items-center justify-center my-12 dark:text-white ${
+    <a
+      href={props.data.projectURL}
+      target="_blank"
+      className={`flex items-center justify-center my-12 dark:text-white scroll-x-none ${
         props.index % 2 === 0 ? "flex-row" : "flex-row-reverse"
       }`}
     >
@@ -47,7 +49,7 @@ const Project = (props: { data: ProjectData; index: number }) => {
           {props.data.name}
         </h2>
         <div
-          className={`flex flex-col-reverse justify-between items-center lg:shadow-2xl rounded-xl lg:p-5 bg-transparent sm:bg-white sm:dark:bg-gray-900 ${
+          className={`flex flex-col-reverse justify-between items-center lg:shadow-2xl rounded-xl lg:p-5 bg-transparent lg:bg-white lg:dark:bg-gray-800 ${
             props.index % 2 === 0 ? "lg:flex-row-reverse" : "lg:flex-row"
           }`}
         >
@@ -65,7 +67,7 @@ const Project = (props: { data: ProjectData; index: number }) => {
           {props.data.tools}
         </h3>
       </div>
-    </div>
+    </a>
   );
 };
 
