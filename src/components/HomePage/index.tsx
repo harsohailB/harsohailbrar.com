@@ -20,9 +20,7 @@ const HomePage = () => {
         </p>
 
         <p className="font-spartan text-sm sm:text-1xl">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s.
+          Love learning new technologies and building innovative solutions!
         </p>
       </div>
 

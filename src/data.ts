@@ -14,14 +14,14 @@ export const siteData: SiteData = {
   educationData: [
     {
       imageURL:
-        "https://static.wixstatic.com/media/a7fdd6_c2e83f8b4f0a401f80f61219d7d29864~mv2.png/v1/fill/w_560,h_272,al_c,q_85,usm_0.66_1.00_0.01/a7fdd6_c2e83f8b4f0a401f80f61219d7d29864~mv2.webp",
+        "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/UofCCoat.svg/1200px-UofCCoat.svg.png",
       school: "University of Calgary",
       degree: "Software Engineering",
       duration: "2017 - Present",
     },
     {
       imageURL:
-        "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Haskayne_School_of_Business.svg/500px-Haskayne_School_of_Business.svg.png",
+        "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/UofCCoat.svg/1200px-UofCCoat.svg.png",
       school: "University of Calgary",
       degree: "Bachelor of Commerce",
       duration: "2018 - Present",

@@ -5,7 +5,7 @@ const EducationTile = (props: { data: EducationData }) => {
     <div className="flex justify-between items-center my-8 sm:my-16">
       <img
         src={props.data.imageURL}
-        className="h-8 sm:h-24 md:h-28 lg:h-36 w-auto"
+        className="h-16 sm:h-24 md:h-28 lg:h-32 w-auto"
         alt={props.data.school}
       />
 

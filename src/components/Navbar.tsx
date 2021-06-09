@@ -74,7 +74,13 @@ const Navbar = () => {
           <a className="mx-4 hidden md:flex" href="skills">
             Skills
           </a>
-          <a className="mx-4 hidden md:flex">Resume</a>
+          <a
+            className="mx-4 hidden md:flex"
+            href="../../resume.pdf"
+            target="_blank"
+          >
+            Resume
+          </a>
           {renderThemeIcon()}
         </div>
       </div>
@@ -108,7 +114,11 @@ const Navbar = () => {
           <CodeOutlinedIcon />
           Skills
         </a>
-        <a className="flex flex-col justify-center items-center text-xs">
+        <a
+          className="flex flex-col justify-center items-center text-xs"
+          href="../../resume.pdf"
+          target="_blank"
+        >
           <DescriptionOutlinedIcon />
           Resume
         </a>
