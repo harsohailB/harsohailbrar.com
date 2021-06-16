@@ -1,3 +1,5 @@
+import { Helmet } from "react-helmet";
+
 import Header from "../Header";
 import { siteData } from "../../data";
 import { EducationData } from "../../interfaces/education";
@@ -12,6 +14,9 @@ const EducationPage = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Harsohail Brar - Education</title>
+      </Helmet>
       <Header title="Education" />
       {renderEducations()}
     </div>

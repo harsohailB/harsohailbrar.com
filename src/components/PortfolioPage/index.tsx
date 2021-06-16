@@ -1,3 +1,5 @@
+import { Helmet } from "react-helmet";
+
 import Header from "../Header";
 import Project from "./Project";
 import { siteData } from "../../data";
@@ -12,6 +14,9 @@ const PortfolioPage = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Harsohail Brar - Portfolio</title>
+      </Helmet>
       <Header title="Portfolio" />
       {renderProjects()}
     </div>

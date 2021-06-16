@@ -1,3 +1,5 @@
+import { Helmet } from "react-helmet";
+
 import Header from "../Header";
 import ExperienceTile from "./ExperienceTile";
 import { siteData } from "../../data";
@@ -15,6 +17,9 @@ const Experience = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Harsohail Brar - Experience</title>
+      </Helmet>
       <Header title="Experience" />
       {renderExperiences(siteData.experienceData, true)}
       <Header title="Achievements" />
