@@ -11,6 +11,21 @@ export const siteData: SiteData = {
       duration: "September 2020 - Present",
     },
   ],
+  achievementsData: [
+    {
+      imageURL:
+        "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_thumbnails/001/321/793/datas/original.png",
+      company: "Calgary Hacks",
+      position: "Best UI/UX in Tier 1",
+      duration: "2021",
+    },
+    {
+      imageURL: "https://asec.ca/static/images/logo_330x330.png",
+      company: "ASEC Hackathon",
+      position: "1st Place - Analytical",
+      duration: "2021",
+    },
+  ],
   educationData: [
     {
       imageURL:

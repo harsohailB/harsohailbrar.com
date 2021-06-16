@@ -4,16 +4,21 @@ import { siteData } from "../../data";
 import { ExperienceData } from "../../interfaces/experience";
 
 const Experience = () => {
-  const renderExperiences = () => {
-    return siteData.experienceData.map((experience: ExperienceData) => (
-      <ExperienceTile data={experience} />
+  const renderExperiences = (
+    experiences: ExperienceData[],
+    isCompany: boolean = false
+  ) => {
+    return experiences.map((experience: ExperienceData) => (
+      <ExperienceTile data={experience} isCompany={isCompany} />
     ));
   };
 
   return (
     <div>
       <Header title="Experience" />
-      {renderExperiences()}
+      {renderExperiences(siteData.experienceData, true)}
+      <Header title="Achievements" />
+      {renderExperiences(siteData.achievementsData)}
     </div>
   );
 };
