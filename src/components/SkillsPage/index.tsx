@@ -1,3 +1,5 @@
+import { Helmet } from "react-helmet";
+
 import Header from "../Header";
 import { siteData } from "../../data";
 import { SkillsCategory } from "../../interfaces/skills";
@@ -12,6 +14,9 @@ const SkillsPage = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Harsohail Brar - Skills</title>
+      </Helmet>
       <Header title="Skills" />
       {renderSkills()}
     </div>

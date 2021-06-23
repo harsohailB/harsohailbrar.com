@@ -5,6 +5,7 @@ import { ExperienceData } from "./experience";
 
 export interface SiteData {
   experienceData: ExperienceData[];
+  achievementsData: ExperienceData[];
   educationData: EducationData[];
   portfolioData: ProjectData[];
   skillsData: SkillsCategory[];
