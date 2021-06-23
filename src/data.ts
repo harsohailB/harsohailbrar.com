@@ -45,7 +45,7 @@ export const siteData: SiteData = {
       status: Status.InProduction,
       tools: "React + TypeScript",
       imageURL:
-        "https://s3-alpha-sig.figma.com/img/fceb/434e/c46c46787f5852584fb8df730a20502f?Expires=1624233600&Signature=CPDn26Jg08IgUVI0mJxtvvUYdJzrAxA4P9smwIE2~VslpMcYya~dnkUEWTh6VAQcXdS5lVzlM-4qt2ET0QU1zU3XKmx8eOxNpucUFvrl9AbFUHyBEGYQ2C0Ajz8VEDkruRzdk3PmEBuiy1lIYpktR-eE185SOe3IzveoYlOLuPoSvxWMFxFaSGPvF6HIDNDPDC~Sat7yio4jAPcBLBIr4I8UkTA9VtTj0yZj3ACGjr0JxruKFGiPAvHP0z1OJZyKDCLvkx1GialbMsnGsufMEukGaJ8P4d~Sc8~eTWc8EsO0zxmr5OO5wNqmiueVg9ttUH9wiSU4LaqFW65Dp6kmRw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+        "https://lh3.googleusercontent.com/Vcvjqucnp2k-4tA3lCUtqvzAPyFkhazendOtdfnufS5tU7A7uycjXlBKVquHmO2u5yX98aRuCe1HIBIu5YTNGBV7plcSFIRATVend-xkpa8XKJPh60skXAMlPVAEgb55WcMa01Bc8fGWibQBLYtjBxC70ml7gda3hdmianC3rB2xYzYfC4gSD1qHSYXdOWj-g9tDyUv0ZMWnA51PComKmEPugNT4ETCBERlkXBYvjQLjazoVb303O0sq8FZsT5qWP8oV0_Nk0YSMJL5kKRu6lz808ds8-U1Cn6rPVu2nMJu0NSS2FOyEvkzo0NvepvJzRSQ5eSZgLtoEmVd6tQVkVN8mzWJsQiIK9NDfkUpiN_MmdZiYAUDJuNhCGajGFuQm74ceruFhS4ELtdYI_4RLsx_h4nKKtRumfC1zUgg-Fj0irvZbuZpnXTttguEf0XyXgd7dpzvbTzWIujl5dHr6eYSQFFyhQcn4N_qZgN1Kor-g3nAUB-itsKUUfrbVngesfCLyXqXi24JpP_pNQv-bCJ9lNJecFKPahBMLZ5e3R6TyO6nt6iN1TvOiIGWgZptD6PI6n5i1H2hk9yERo87m-4bkdN43pop9sYzsOrTb2Y3IsYb1ay0DbzkW6bFVgVpRpkrudoIX-8916iBNsL2v-850ukjolCuKgpyrUk9p8xQ5oHxaSZckCE0p9ZjbPF9S1ZYkhTFpfjllNdfZqjuVW-Ku=w1668-h1044-no?authuser=0",
       projectURL: "https://ticker-symbol-search.vercel.app",
     },
     {
