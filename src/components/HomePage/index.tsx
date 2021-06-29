@@ -6,8 +6,8 @@ import headshotImage from "../../assets/imgs/home/headshot.png";
 
 const HomePage = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-between items-center md:h-rest items-center">
-      <div className="flex flex-col md:w-1/2 dark:text-white my-10">
+    <div className="flex flex-col lg:flex-row justify-between items-center md:h-rest items-center">
+      <div className="flex flex-col lg:w-1/2 dark:text-white my-10">
         <p className="font-playfair text-5xl sm:text-7xl font-bold">Welcome!</p>
         <p className="font-playfair text-5xl sm:text-7xl font-bold">
           I am Harsohail Brar
@@ -26,7 +26,7 @@ const HomePage = () => {
 
       <div className="flex justify-end items-center">
         <div className="flex flex-col justify-center items-center">
-          <img src={headshotImage} className="w-80 h-auto" />
+          <img src={headshotImage} className="w-96 h-auto" />
 
           <div className="flex flex-row mt-6 space-x-4 dark:text-white">
             <a href="https://www.linkedin.com/in/harsohailbrar/">
