@@ -33,7 +33,9 @@ const Project = (props: { data: ProjectData; index: number }) => {
       }`}
     >
       <img
-        src={props.data.imageURL}
+        src={
+          require(`../../assets/imgs/portfolio/${props.data.imageURL}`).default
+        }
         className={`w-auto h-48 sm:h-40 sm:h-48 lg:h-80 shadow-2xl rounded-xl cursor-pointer ${
           props.index % 2 === 0 ? "-ml-40" : "-mr-40"
         } sm:-ml-0`}
