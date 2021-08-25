@@ -8,7 +8,7 @@ export const siteData: SiteData = {
         "https://logos-download.com/wp-content/uploads/2016/08/Cenovus_logo.png",
       company: "Cenovus Energy",
       position: "Software Development Co-op Student",
-      duration: "September 2020 - Present",
+      duration: "September 2020 - August 2021",
     },
   ],
   achievementsData: [
