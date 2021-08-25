@@ -68,6 +68,8 @@
 \def \email {\emailicon \hspace{3pt}\href{\emaillink}{\emailtext}}
 \def \github {\githubicon \hspace{3pt}\href{\githublink}{\githubtext}}
 \def \website {\websiteicon \hspace{3pt}\href{\websitelink}{\websitetext}}
+\def \jambo {\href{http://jamboapparel.com}{jamboapparel.com}}
+\def \tlreadr {\href{https://github.com/garywu2/TLreaDR}{github.com/TLreaDR}}
 
 % Adjust margins
 \addtolength{\oddsidemargin}{-0.55in}
@@ -106,7 +108,7 @@
 % Resume item
 \renewcommand{\labelitemii}{\bulletstyle}
 \newcommand{\resumeItem}[1]{
-  \item\small{
+  \item\footnotesize{
     {#1 \vspace{-2pt}}
   }
 }
@@ -130,7 +132,7 @@
 
 % Entry for special (skills)
 \newcommand{\resumeEntryS}[2]{
-  \item[]\small{
+  \item[]\footnotesize{
     \textbf{\color{primary}#1 }{ #2 \vspace{-6pt}}
   }
 }
@@ -202,7 +204,8 @@
       \resumeItem {Developed an end-to-end project delivery web application using {\bf ReactJS} and {\bf Microsoft’s SharePoint REST API} for
 designing and monitoring project models across business units.}
       \resumeItem {Constructed automated builds, deployments, and dependency caching for the application in {\bf GitHub Actions CI/CD}
-with {\bf bash} and {\bf YAML} to reduce deployment times by over 50\%.}
+   \hspace{10pt} with {\bf bash} and {\bf YAML} to reduce deployment times by over 50\%.}
+      \resumeItem {Followed {\bf agile principles} and performed bi-weekly sprints for the development of the application.} 
       \resumeItem {Selected as {\bf one of 10 interns out of 250} to present the project to the {\bf CEO} and {\bf COO} of the company and show
     the business value added.}
     \resumeItemListEnd
@@ -213,18 +216,17 @@ with {\bf bash} and {\bf YAML} to reduce deployment times by over 50\%.}
 
   \resumeEntryStart
     \resumeEntryTSDL
-      {University of Calgary}{2017 -- Present}
-      {Bachelor of Science in Software Engineering}{Expected Graduation: May 2023}
+      {University of Calgary}{September 2017 -- May 2023}
+      {Bachelor of Science in Software Engineering}{}
         \resumeItemListStart
-            \resumeItem {GPA: 3.77, Schulich School of Engineering Dean’s List}
-            \resumeItem {Object-Oriented Programming, Databases, Software Architecture, Data Structures and Algorithms, Computer Networks}
+            \resumeItem {Schulich School of Engineering Dean’s List}
         \resumeItemListEnd
   \resumeEntryEnd
   
   \resumeEntryStart
     \resumeEntryTSDL
-      {University of Calgary}{2017 -- Present}
-      {Bachelor of Commerce}{Expected Graduation: May 2023}
+      {University of Calgary}{September 2017 -- May 2023}
+      {Bachelor of Commerce}{}
       \resumeItemListStart
             \resumeItem {Haskayne School of Business Dean’s List}
         \resumeItemListEnd
@@ -235,17 +237,7 @@ with {\bf bash} and {\bf YAML} to reduce deployment times by over 50\%.}
 
   \resumeEntryStart
     \resumeEntryTD
-      {ticker-symbol-search}{Personal Project}
-    \resumeItemListStart
-      \resumeItem {Built a lightweight node package using {\bf React + Typescript} that offers UI, hooks, and types for the end-users to
-simply import into their web apps.}
-        \resumeItem {Provides live ticker symbol data from various markets such as stocks, futures, forex, cryptocurrencies, etc.}
-    \resumeItemListEnd
-  \resumeEntryEnd
-
-  \resumeEntryStart
-    \resumeEntryTD
-      {Jambo Apparel}{Charity Project}
+      {Jambo Apparel}\jambo
     \resumeItemListStart
       \resumeItem {Developed a proprietary e-commerce store for the non-profit organization Jambo Apparel to lower operating costs
 incurred by platforms such as Shopify.}
@@ -256,12 +248,35 @@ managing payments, {\bf FaunaDB} as the database, and {\bf PrintifyAPI} for supp
 
   \resumeEntryStart
     \resumeEntryTD
-      {TLreaDR}{Course Project}
+      {TLreaDR}\tlreadr
     \resumeItemListStart
       \resumeItem {A platform for users to share summarized news articles for discussion and stay up to date on current affairs.}
       \resumeItem {Developed REST APIs on the backend team using {\bf Flask} and {\bf Docker} as microservices with scalable architectures such
-as {\bf CQRS} and {\bf event sourcing}.}
+\hspace{10pt} as {\bf CQRS} and {\bf event sourcing}.}
       \resumeItem {Streamlined {\bf PostgreSQL} database migrations using {\bf Alembic} which was hosted on {\bf AWS RDS}.}
+    \resumeItemListEnd
+  \resumeEntryEnd
+  
+ %-------------------------------------------------- ACHIEVEMENTS --------------------------------------------------
+ 
+ \section{\faFlag}{Achievements}
+ 
+ \resumeEntryStart
+    \resumeEntryTD
+      {CalgaryHacks}{\it Full Stack Hackathon / Competition}
+    \resumeItemListStart
+      \resumeItem {Awarded {\bf Best UI/UX in Tier 1} of the competition with over 700 participants and over 150 submissions.}
+      \resumeItem {Developed a platform in 24 hours that allows individuals to delegate their errands to our application’s employees to limit the spread of COVID using {\bf ReactJS}, {\bf Express.js}, and {\bf MongoDB}.}
+    \resumeItemListEnd
+  \resumeEntryEnd
+  
+  \resumeEntryStart
+    \resumeEntryTD
+      {ASEC Hackathon}{\it Data Science Hackathon / Competition}
+    \resumeItemListStart
+      \resumeItem {Awarded {\bf 1st place} in the data science analytical competition to solve the industry problem presented.}
+      \resumeItem {Preprocessed given datasets and created data pipelines using {\bf Pandas} to prepare data for our machine learning models.}
+      \resumeItem {Pair-programmed machine learning models using {\bf Scikit-Learn} and {\bf TensorFlow} to get an introduction to the technologies.}
     \resumeItemListEnd
   \resumeEntryEnd
 
