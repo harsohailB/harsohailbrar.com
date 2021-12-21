@@ -22,6 +22,9 @@ const ExperienceTile = (props: {
         <p className="italic text-gray-400 dark:text-gray-400 text-xs sm:text-sm">
           {props.data.duration}
         </p>
+        <p className="italic text-gray-400 dark:text-gray-400 text-xs sm:text-sm">
+          {props.data.location}
+        </p>
       </div>
     </div>
   );

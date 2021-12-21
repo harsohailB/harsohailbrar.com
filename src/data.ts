@@ -5,11 +5,20 @@ export const siteData: SiteData = {
   experienceData: [
     {
       imageURL:
+        "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/wizsxy2cj3m8g7yoanpw",
+      company: "Modern Treasury",
+      position: "Incoming Software Engineer Intern",
+      duration: "Summer 2022",
+      location: "San Francisco Bay Area"
+    },
+    {
+      imageURL:
         "https://logos-download.com/wp-content/uploads/2016/08/Cenovus_logo.png",
       company: "Cenovus Energy",
       position: "Software Development Co-op Student",
       duration: "September 2020 - August 2021",
-    },
+      location: "Calgary, Alberta"
+    }
   ],
   achievementsData: [
     {
@@ -18,13 +27,15 @@ export const siteData: SiteData = {
       company: "Calgary Hacks",
       position: "Best UI/UX in Tier 1",
       duration: "2021",
+      location: "Calgary, Alberta"
     },
     {
       imageURL: "https://asec.ca/static/images/logo_330x330.png",
       company: "ASEC Hackathon",
       position: "1st Place - Analytical",
       duration: "2021",
-    },
+      location: "Calgary, Alberta"
+    }
   ],
   educationData: [
     {
@@ -32,15 +43,15 @@ export const siteData: SiteData = {
         "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/UofCCoat.svg/1200px-UofCCoat.svg.png",
       school: "University of Calgary",
       degree: "Software Engineering",
-      duration: "2017 - Present",
+      duration: "2017 - Present"
     },
     {
       imageURL:
         "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/UofCCoat.svg/1200px-UofCCoat.svg.png",
       school: "University of Calgary",
       degree: "Bachelor of Commerce",
-      duration: "2018 - Present",
-    },
+      duration: "2018 - Present"
+    }
   ],
   portfolioData: [
     {
@@ -50,7 +61,7 @@ export const siteData: SiteData = {
       status: Status.InProduction,
       tools: "ReactJS, ExpressJS, FaunaDB",
       imageURL: "jambo.webp",
-      projectURL: "https://www.jamboapparel.com/",
+      projectURL: "https://www.jamboapparel.com/"
     },
     {
       name: "ticker-symbol-search",
@@ -59,7 +70,7 @@ export const siteData: SiteData = {
       status: Status.InProduction,
       tools: "React + TypeScript",
       imageURL: "ticker.png",
-      projectURL: "https://ticker-symbol-search.vercel.app",
+      projectURL: "https://ticker-symbol-search.vercel.app"
     },
     {
       name: "TLreaDR",
@@ -68,8 +79,8 @@ export const siteData: SiteData = {
       status: Status.ShutDown,
       tools: "ReactJS, Flask, PostgreSQL",
       imageURL: "tlreadr.webp",
-      projectURL: "https://github.com/garywu2/TLreaDR",
-    },
+      projectURL: "https://github.com/garywu2/TLreaDR"
+    }
   ],
   skillsData: [
     {
@@ -82,24 +93,24 @@ export const siteData: SiteData = {
         "C/C++",
         "SQL",
         "HTML",
-        "CSS",
-      ],
+        "CSS"
+      ]
     },
     {
       name: "Front-end",
-      skills: ["React", "React Native", "Redux"],
+      skills: ["React", "React Native", "Redux"]
     },
     {
       name: "Back-end",
-      skills: ["Flask", "ExpressJS", "FastAPI"],
+      skills: ["Flask", "ExpressJS", "FastAPI"]
     },
     {
       name: "Databases",
-      skills: ["MySQL", "PostgreSQL", "MongoDB", "FaunaDB"],
+      skills: ["MySQL", "PostgreSQL", "MongoDB", "FaunaDB"]
     },
     {
       name: "Cloud",
-      skills: ["AWS", "Docker", "CI/CD", "YAML"],
-    },
-  ],
+      skills: ["AWS", "Docker", "CI/CD", "YAML"]
+    }
+  ]
 };

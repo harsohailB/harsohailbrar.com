@@ -3,4 +3,5 @@ export interface ExperienceData {
   company: string;
   position: string;
   duration: string;
+  location: string;
 }
