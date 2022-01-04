@@ -12,6 +12,13 @@ export const siteData: SiteData = {
       location: "San Francisco Bay Area"
     },
     {
+      imageURL: "https://codethechangeyyc.ca/images/_logo.png",
+      company: "Code The Change YYC",
+      position: "Vice President (Internal) of Events",
+      duration: "September 2021 - Present",
+      location: "Calgary, Alberta"
+    },
+    {
       imageURL:
         "https://logos-download.com/wp-content/uploads/2016/08/Cenovus_logo.png",
       company: "Cenovus Energy",
@@ -50,7 +57,7 @@ export const siteData: SiteData = {
         "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/UofCCoat.svg/1200px-UofCCoat.svg.png",
       school: "University of Calgary",
       degree: "Bachelor of Commerce",
-      duration: "2018 - Present"
+      duration: "2017 - Present"
     }
   ],
   portfolioData: [
