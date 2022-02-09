@@ -98,6 +98,7 @@ export const siteData: SiteData = {
         "Python",
         "Java",
         "C/C++",
+        "C#",
         "SQL",
         "HTML",
         "CSS"
@@ -105,15 +106,15 @@ export const siteData: SiteData = {
     },
     {
       name: "Front-end",
-      skills: ["React", "React Native", "Redux"]
+      skills: ["React", "React Native", "Redux", "Angular"]
     },
     {
       name: "Back-end",
-      skills: ["Flask", "ExpressJS", "FastAPI"]
+      skills: ["Flask", "ExpressJS", "FastAPI", ".NET Core"]
     },
     {
       name: "Databases",
-      skills: ["MySQL", "PostgreSQL", "MongoDB", "FaunaDB"]
+      skills: ["MySQL", "PostgreSQL", "MSSQL", "MongoDB", "FaunaDB"]
     },
     {
       name: "Cloud",
