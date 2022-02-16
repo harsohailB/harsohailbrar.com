@@ -1,4 +1,5 @@
 import { ExperienceData } from "../../interfaces/experience";
+import ExperienceFlow from "./ExperienceFlow";
 
 const ExperienceTile = (props: {
   data: ExperienceData;
@@ -9,23 +10,12 @@ const ExperienceTile = (props: {
       <img
         src={props.data.imageURL}
         className={`${
-          props.isCompany ? "w-24" : "w-16"
+          props.isCompany ? "w-20" : "w-16"
         } sm:w-36 md:w-42 lg:w-auto lg:h-20 h-auto`}
         alt={props.data.company}
       />
 
-      <div className="flex flex-col items-end font-spartan dark:text-white">
-        <h2 className="font-bold text-md sm:text-xl">{props.data.company}</h2>
-        <h3 className="text-right w-2/3 md:w-full lg:w-full text-xs sm:text-sm md:text-md">
-          {props.data.position}
-        </h3>
-        <p className="italic text-gray-400 dark:text-gray-400 text-xs sm:text-sm">
-          {props.data.duration}
-        </p>
-        <p className="italic text-gray-400 dark:text-gray-400 text-xs sm:text-sm">
-          {props.data.location}
-        </p>
-      </div>
+      <ExperienceFlow data={props.data} />
     </div>
   );
 };

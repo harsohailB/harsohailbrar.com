@@ -1,7 +1,11 @@
+export interface PositionData {
+  name: string;
+  duration: string;
+  location: string;
+}
+
 export interface ExperienceData {
   imageURL: string;
   company: string;
-  position: string;
-  duration: string;
-  location: string;
+  positions: PositionData[];
 }
