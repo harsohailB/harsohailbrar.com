@@ -7,24 +7,41 @@ export const siteData: SiteData = {
       imageURL:
         "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/wizsxy2cj3m8g7yoanpw",
       company: "Modern Treasury",
-      position: "Incoming Software Engineer Intern",
-      duration: "Summer 2022",
-      location: "San Francisco Bay Area"
+      positions: [
+        {
+          name: "Incoming Software Engineer Intern",
+          duration: "Summer 2022",
+          location: "San Francisco Bay Area"
+        }
+      ]
     },
     {
       imageURL: "https://codethechangeyyc.ca/images/_logo.png",
       company: "Code The Change YYC",
-      position: "Vice President (Internal) of Events",
-      duration: "September 2021 - Present",
-      location: "Calgary, Alberta"
+      positions: [
+        {
+          name: "Vice President of Technology",
+          duration: "Feb. 2022 - Present",
+          location: "Calgary, Alberta"
+        },
+        {
+          name: "Vice President (Internal) of Events",
+          duration: "Sept. 2021 - Feb. 2022",
+          location: "Calgary, Alberta"
+        }
+      ]
     },
     {
       imageURL:
         "https://logos-download.com/wp-content/uploads/2016/08/Cenovus_logo.png",
       company: "Cenovus Energy",
-      position: "Software Development Co-op Student",
-      duration: "September 2020 - August 2021",
-      location: "Calgary, Alberta"
+      positions: [
+        {
+          name: "Software Development Co-op Student",
+          duration: "Sept. 2020 - Aug. 2021",
+          location: "Calgary, Alberta"
+        }
+      ]
     }
   ],
   achievementsData: [
@@ -32,16 +49,24 @@ export const siteData: SiteData = {
       imageURL:
         "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_thumbnails/001/321/793/datas/original.png",
       company: "Calgary Hacks",
-      position: "Best UI/UX in Tier 1",
-      duration: "2021",
-      location: "Calgary, Alberta"
+      positions: [
+        {
+          name: "Best UI/UX in Tier 1",
+          duration: "2021",
+          location: "Calgary, Alberta"
+        }
+      ]
     },
     {
       imageURL: "https://asec.ca/static/images/logo_330x330.png",
       company: "ASEC Hackathon",
-      position: "1st Place - Analytical",
-      duration: "2021",
-      location: "Calgary, Alberta"
+      positions: [
+        {
+          name: "1st Place - Analytical",
+          duration: "2021",
+          location: "Calgary, Alberta"
+        }
+      ]
     }
   ],
   educationData: [
