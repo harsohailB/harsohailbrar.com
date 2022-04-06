@@ -81,7 +81,7 @@ export const siteData: SiteData = {
       imageURL:
         "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/UofCCoat.svg/1200px-UofCCoat.svg.png",
       school: "University of Calgary",
-      degree: "Bachelor of Commerce",
+      degree: "Bachelor of Commerce - Finance",
       duration: "2017 - Present"
     }
   ],
