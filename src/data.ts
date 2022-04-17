@@ -87,6 +87,25 @@ export const siteData: SiteData = {
   ],
   portfolioData: [
     {
+      name: "faker-js",
+      description:
+        "Open-source contributor to the faker-js library which has ~1.7 million monthly downloads",
+      status: Status.InProduction,
+      tools: "TypeScript",
+      imageURL: "faker.png",
+      projectURL:
+        "https://github.com/faker-js/faker/pulls?q=is%3Apr+author%3AharsohailB+"
+    },
+    {
+      name: "Ruby for Good CASA",
+      description:
+        "Building an SMS Twilio integration for the volunteer management system for nonprofit CASA, which serves foster youth in counties across America",
+      status: Status.InProduction,
+      tools: "Ruby on Rails, SCSS, Twilio",
+      imageURL: "casa.jpg",
+      projectURL: "https://github.com/rubyforgood/casa/issues/1017"
+    },
+    {
       name: "Jambo Apparel",
       description:
         "An e-commerce store to sell merchandise for Jambo Apparel (non-profit organization)",
