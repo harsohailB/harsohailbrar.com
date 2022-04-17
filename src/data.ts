@@ -99,7 +99,7 @@ export const siteData: SiteData = {
     {
       name: "Ruby for Good CASA",
       description:
-        "Building an SMS Twilio integration for the volunteer management system for nonprofit CASA, which serves foster youth in counties across America",
+        "Team lead for building an SMS Twilio integration for the volunteer management system for nonprofit CASA, which serves foster youth in counties across America",
       status: Status.InProduction,
       tools: "Ruby on Rails, SCSS, Twilio",
       imageURL: "casa.jpg",
