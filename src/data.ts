@@ -99,7 +99,7 @@ export const siteData: SiteData = {
     {
       name: "Ruby for Good CASA",
       description:
-        "Team lead for building an SMS Twilio integration for the volunteer management system for nonprofit CASA, which serves foster youth in counties across America",
+        "Team lead for building an SMS Twilio integration within a volunteer management system for the nonprofit CASA, which serves foster youth in counties across America",
       status: Status.InProduction,
       tools: "Ruby on Rails, SCSS, Twilio",
       imageURL: "casa.jpg",
@@ -126,7 +126,7 @@ export const siteData: SiteData = {
     {
       name: "TLreaDR",
       description:
-        "A a platform to share and interact with summarized news articles about current affairs",
+        "A platform to share and interact with summarized news articles about current affairs",
       status: Status.ShutDown,
       tools: "ReactJS, Flask, PostgreSQL",
       imageURL: "tlreadr.webp",
