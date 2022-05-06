@@ -140,6 +140,7 @@ export const siteData: SiteData = {
         "JavaScript",
         "TypeScript",
         "Python",
+        "Ruby",
         "Java",
         "C/C++",
         "C#",
