@@ -11,9 +11,9 @@ export const siteData: SiteData = {
         {
           name: "Incoming Software Engineer Intern",
           duration: "Summer 2022",
-          location: "San Francisco Bay Area"
-        }
-      ]
+          location: "San Francisco Bay Area",
+        },
+      ],
     },
     {
       imageURL: "https://codethechangeyyc.ca/images/_logo.png",
@@ -22,14 +22,14 @@ export const siteData: SiteData = {
         {
           name: "Vice President of Technology",
           duration: "Feb. 2022 - Present",
-          location: "Calgary, Alberta"
+          location: "Calgary, Alberta",
         },
         {
           name: "Vice President (Internal) of Events",
           duration: "Sept. 2021 - Feb. 2022",
-          location: "Calgary, Alberta"
-        }
-      ]
+          location: "Calgary, Alberta",
+        },
+      ],
     },
     {
       imageURL:
@@ -39,10 +39,10 @@ export const siteData: SiteData = {
         {
           name: "Software Development Co-op Student",
           duration: "Sept. 2020 - Aug. 2021",
-          location: "Calgary, Alberta"
-        }
-      ]
-    }
+          location: "Calgary, Alberta",
+        },
+      ],
+    },
   ],
   achievementsData: [
     {
@@ -53,21 +53,22 @@ export const siteData: SiteData = {
         {
           name: "Best UI/UX in Tier 1",
           duration: "2021",
-          location: "Calgary, Alberta"
-        }
-      ]
+          location: "Calgary, Alberta",
+        },
+      ],
     },
     {
-      imageURL: "https://asec.ca/static/images/logo_330x330.png",
+      imageURL:
+        "https://scontent-sea1-1.xx.fbcdn.net/v/t31.18172-8/17880365_1471304502900100_4568227105541667451_o.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=SiUrcNubGy0AX-7x4Hc&_nc_ht=scontent-sea1-1.xx&oh=00_AT-n_BoMF3V62VCj23h0Mx7TH_ch20aZbbzSIDMn78pekg&oe=62E7A33C",
       company: "ASEC Hackathon",
       positions: [
         {
           name: "1st Place - Analytical",
           duration: "2021",
-          location: "Calgary, Alberta"
-        }
-      ]
-    }
+          location: "Calgary, Alberta",
+        },
+      ],
+    },
   ],
   educationData: [
     {
@@ -75,15 +76,15 @@ export const siteData: SiteData = {
         "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/UofCCoat.svg/1200px-UofCCoat.svg.png",
       school: "University of Calgary",
       degree: "Software Engineering",
-      duration: "2017 - Present"
+      duration: "2017 - Present",
     },
     {
       imageURL:
         "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/UofCCoat.svg/1200px-UofCCoat.svg.png",
       school: "University of Calgary",
       degree: "Bachelor of Commerce - Finance",
-      duration: "2017 - Present"
-    }
+      duration: "2017 - Present",
+    },
   ],
   portfolioData: [
     {
@@ -94,7 +95,7 @@ export const siteData: SiteData = {
       tools: "TypeScript",
       imageURL: "faker.png",
       projectURL:
-        "https://github.com/faker-js/faker/pulls?q=is%3Apr+author%3AharsohailB+"
+        "https://github.com/faker-js/faker/pulls?q=is%3Apr+author%3AharsohailB+",
     },
     {
       name: "Ruby for Good CASA",
@@ -103,7 +104,7 @@ export const siteData: SiteData = {
       status: Status.InProduction,
       tools: "Ruby on Rails, SCSS, Twilio",
       imageURL: "casa.jpg",
-      projectURL: "https://github.com/rubyforgood/casa/issues/1017"
+      projectURL: "https://github.com/rubyforgood/casa/issues/1017",
     },
     {
       name: "Jambo Apparel",
@@ -112,7 +113,7 @@ export const siteData: SiteData = {
       status: Status.InProduction,
       tools: "ReactJS, ExpressJS, FaunaDB",
       imageURL: "jambo.webp",
-      projectURL: "https://www.jamboapparel.com/"
+      projectURL: "https://www.jamboapparel.com/",
     },
     {
       name: "ticker-symbol-search",
@@ -121,7 +122,7 @@ export const siteData: SiteData = {
       status: Status.InProduction,
       tools: "React + TypeScript",
       imageURL: "ticker.png",
-      projectURL: "https://ticker-symbol-search.vercel.app"
+      projectURL: "https://ticker-symbol-search.vercel.app",
     },
     {
       name: "TLreaDR",
@@ -130,8 +131,8 @@ export const siteData: SiteData = {
       status: Status.ShutDown,
       tools: "ReactJS, Flask, PostgreSQL",
       imageURL: "tlreadr.webp",
-      projectURL: "https://github.com/garywu2/TLreaDR"
-    }
+      projectURL: "https://github.com/garywu2/TLreaDR",
+    },
   ],
   skillsData: [
     {
@@ -146,24 +147,24 @@ export const siteData: SiteData = {
         "C#",
         "SQL",
         "HTML",
-        "CSS"
-      ]
+        "CSS",
+      ],
     },
     {
       name: "Front-end",
-      skills: ["React", "React Native", "Redux", "Angular"]
+      skills: ["React", "React Native", "Redux", "Angular"],
     },
     {
       name: "Back-end",
-      skills: ["Flask", "ExpressJS", "FastAPI", ".NET Core"]
+      skills: ["Flask", "ExpressJS", "FastAPI", ".NET Core"],
     },
     {
       name: "Databases",
-      skills: ["MySQL", "PostgreSQL", "MSSQL", "MongoDB", "FaunaDB"]
+      skills: ["MySQL", "PostgreSQL", "MSSQL", "MongoDB", "FaunaDB"],
     },
     {
       name: "Cloud",
-      skills: ["AWS", "Docker", "CI/CD", "YAML"]
-    }
-  ]
+      skills: ["AWS", "Docker", "CI/CD", "YAML"],
+    },
+  ],
 };

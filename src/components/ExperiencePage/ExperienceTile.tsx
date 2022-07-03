@@ -11,7 +11,7 @@ const ExperienceTile = (props: {
         src={props.data.imageURL}
         className={`${
           props.isCompany ? "w-20" : "w-16"
-        } sm:w-36 md:w-42 lg:w-auto lg:h-20 h-auto`}
+        } sm:w-36 md:w-42 lg:w-auto lg:h-20 h-auto rounded-md`}
         alt={props.data.company}
       />
 
