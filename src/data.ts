@@ -58,8 +58,7 @@ export const siteData: SiteData = {
       ],
     },
     {
-      imageURL:
-        "https://scontent-sea1-1.xx.fbcdn.net/v/t31.18172-8/17880365_1471304502900100_4568227105541667451_o.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=SiUrcNubGy0AX-7x4Hc&_nc_ht=scontent-sea1-1.xx&oh=00_AT-n_BoMF3V62VCj23h0Mx7TH_ch20aZbbzSIDMn78pekg&oe=62E7A33C",
+      imageURL: "/asec.png",
       company: "ASEC Hackathon",
       positions: [
         {
