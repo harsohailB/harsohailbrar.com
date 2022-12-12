@@ -9,6 +9,11 @@ export const siteData: SiteData = {
       company: 'Modern Treasury',
       positions: [
         {
+          name: 'Incoming Software Engineer',
+          duration: 'Sep. 2022 - Present',
+          location: 'San Francisco Bay Area'
+        },
+        {
           name: 'Software Engineer Intern',
           duration: 'May 2022 - Sep. 2022',
           location: 'San Francisco Bay Area'
