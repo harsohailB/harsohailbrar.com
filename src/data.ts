@@ -16,7 +16,7 @@ export const siteData: SiteData = {
       ]
     },
     {
-      imageURL: 'https://drive.google.com/file/d/1n9k32ipOJ5yhX_LLfI9FJtKcyH0XaYtX/view?usp=sharing',
+      imageURL: 'https://www.codethechangeyyc.ca/_next/image?url=%2Flogo.png&w=48&q=75',
       company: 'Code The Change YYC',
       positions: [
         {
