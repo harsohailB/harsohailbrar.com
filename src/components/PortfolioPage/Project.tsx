@@ -36,14 +36,14 @@ const Project = (props: { data: ProjectData; index: number }) => {
         src={
           require(`../../assets/imgs/portfolio/${props.data.imageURL}`).default
         }
-        className={`w-auto h-48 sm:h-40 sm:h-48 lg:h-80 shadow-2xl rounded-xl cursor-pointer ${
+        className={`z-0 w-auto h-48 sm:h-40 sm:h-48 lg:h-80 shadow-2xl rounded-xl cursor-pointer ${
           props.index % 2 === 0 ? "-ml-40" : "-mr-40"
         } sm:-ml-0`}
       />
       <div
         className={`${
           props.index % 2 === 0 ? "ml-4 -mr-4" : "mr-4 -ml-4"
-        } sm:mx-4 lg:-m-32 w-52 lg:w-96 ${
+        } sm:mx-4 lg:-m-32 w-52 lg:w-96 z-10 ${
           props.index % 2 === 0 ? "text-right" : "text-left"
         }`}
       >
