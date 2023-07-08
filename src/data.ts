@@ -9,8 +9,8 @@ export const siteData: SiteData = {
       company: "AngelList Venture",
       positions: [
         {
-          name: "Incoming Software Engineer",
-          duration: "Jan. 2023 - Present",
+          name: "Software Engineer",
+          duration: "July 2023 - Present",
           location: "San Francisco Bay Area",
         },
       ],
@@ -65,7 +65,7 @@ export const siteData: SiteData = {
   achievementsData: [
     {
       imageURL:
-        "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_thumbnails/001/321/793/datas/original.png",
+        "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/002/341/124/datas/original.png",
       company: "Calgary Hacks",
       positions: [
         {
