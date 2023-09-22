@@ -11,10 +11,10 @@ const HomePage = () => {
           I am Harsohail Brar
         </p>
         <p className="font-spartan text-xl sm:text-2xl font-bold text-gray-400 mt-4 dark:text-gray-400">
-          Software Engineering Student
+          Software Engineer
         </p>
         <p className="font-spartan text-xl sm:text-2xl font-bold text-gray-400 mb-4 dark:text-gray-400">
-          @ University of Calgary
+          @ AngelList Venture
         </p>
 
         <p className="font-spartan text-sm sm:text-1xl">
